@@ -1,0 +1,1807 @@
+# Kazakh translation for gnome-subtitles.
+# Copyright (C) 2026 gnome-subtitles's COPYRIGHT HOLDER
+# This file is distributed under the same license as the gnome-subtitles package.
+# Baurzhan Muftakhidinov <baurthefirst@gmail.com>,  2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-subtitles master\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-subtitles/issues/\n"
+"POT-Creation-Date: 2022-10-06 15:24+0000\n"
+"PO-Revision-Date: 2026-03-16 00:38+0500\n"
+"Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
+"Language-Team: Kazakh <Kazakh>\n"
+"Language: kk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.9\n"
+
+#: data/org.gnome.GnomeSubtitles.appdata.xml.in:7
+#: data/org.gnome.GnomeSubtitles.desktop.in:3
+msgid "Gnome Subtitles"
+msgstr "Gnome Subtitles"
+
+#: data/org.gnome.GnomeSubtitles.appdata.xml.in:8
+#: data/org.gnome.GnomeSubtitles.desktop.in:5
+#: src/GnomeSubtitles/Dialog/AboutDialog.cs:47
+msgid "Video subtitling for the GNOME desktop"
+msgstr "GNOME жұмыс үстелі үшін видеоға субтитрлерді жасау"
+
+#: data/org.gnome.GnomeSubtitles.appdata.xml.in:10
+msgid ""
+"Gnome Subtitles is a subtitle editor for the GNOME desktop environment. It "
+"allows to create, synchronize, convert and translate subtitles by using a "
+"friendly user interface with video preview."
+msgstr ""
+"Gnome Subtitles — GNOME жұмыс үстелі ортасы үшін субтитрлерді түзету құралы. Ол "
+"видеоны алдын ала қарау мүмкіндігі бар ыңғайлы пайдаланушы интерфейсін қолдана "
+"отырып, субтитрлерді жасау, синхрондау, түрлендіру және аудару мүмкіндігін "
+"береді."
+
+#: data/org.gnome.GnomeSubtitles.appdata.xml.in:14
+msgid ""
+"A total of 22 subtitle formats are supported, including but not limited to: "
+"SubRip, MicroDVD, FAB Subtitler, MPlayer, Sub Station Alpha, MPSub and "
+"SubViewer."
+msgstr ""
+"Барлығы 22 субтитр пішімі қолдау табады, олардың ішінде, бірақ олармен "
+"шектелмейтіндері: SubRip, MicroDVD, FAB Subtitler, MPlayer, Sub Station Alpha, "
+"MPSub және SubViewer."
+
+#: data/org.gnome.GnomeSubtitles.appdata.xml.in:31
+msgid "Main window"
+msgstr "Негізгі терезе"
+
+#: data/org.gnome.GnomeSubtitles.desktop.in:4
+msgid "Subtitle Editor"
+msgstr "Субтитрлерді түзету құралы"
+
+#. Translators: Search terms to find this application. Do NOT translate or
+#. localize the semicolons! The list MUST also end with a semicolon!
+#: data/org.gnome.GnomeSubtitles.desktop.in:14
+msgid "subtitles;video;captions;"
+msgstr "субтитрлер;видео;титрлер;"
+
+#: data/org.gnome.GnomeSubtitles.gschema.xml:7
+msgid "Encodings shown in menu"
+msgstr "Мәзірде көрсетілетін кодтаулар"
+
+#: data/org.gnome.GnomeSubtitles.gschema.xml:8
+msgid "List of encodings shown in the File Open/Save dialogs."
+msgstr "Файлды ашу/сақтау сұхбат терезелерінде көрсетілетін кодтаулар тізімі."
+
+#: data/org.gnome.GnomeSubtitles.gschema.xml:12
+msgid "File Open encoding option"
+msgstr "Файлды ашу кодтау опциясы"
+
+#: data/org.gnome.GnomeSubtitles.gschema.xml:13
+msgid ""
+"Encoding option to use by default when opening files. Possible values are: "
+"\"AutoDetect\" to use auto detection, \"RememberLastUsed\" to remember the last "
+"used encoding, \"CurrentLocale\" to use the current locale, and \"Specific\" to "
+"use a specific encoding. The encoding for \"RememberLastUsed\" and \"Specific\" "
+"is stored in the file_open_encoding key."
+msgstr ""
+"Файлдарды ашқан кезде үнсіз келісім бойынша қолданылатын кодтау опциясы. Мүмкін "
+"мәндері: авто анықтау үшін «AutoDetect», соңғы қолданылған кодтауды есте сақтау "
+"үшін «RememberLastUsed», ағымдағы локальды қолдану үшін «CurrentLocale» және "
+"көрсетілген кодтауды қолдану үшін «Specific». «RememberLastUsed» және "
+"«Specific» үшін кодтау file_open_encoding кілтінде сақталады."
+
+#: data/org.gnome.GnomeSubtitles.gschema.xml:17
+msgid "File Open encoding"
+msgstr "Файлды ашу кодтауы"
+
+#: data/org.gnome.GnomeSubtitles.gschema.xml:18
+msgid ""
+"Encoding to use when opening files. Besides the actual encoding, used when "
+"\"RememberLastUsed\" or \"Specific\" are set in the file_open_encoding_option "
+"key, other possible values are \"AutoDetect\" and \"CurrentLocale\"."
+msgstr ""
+"Файлдарды ашқан кезде қолданылатын кодтау. Нақты кодтаудан басқа, "
+"file_open_encoding_option кілтінде «RememberLastUsed» немесе «Specific» "
+"орнатылған кезде қолданылатын басқа мүмкін мәндері — «AutoDetect» және "
+"«CurrentLocale»."
+
+#: data/org.gnome.GnomeSubtitles.gschema.xml:22
+msgid "Auto detection fallback encoding"
+msgstr "Авто анықтау сәтсіз аяқталған кездегі кодтау"
+
+#: data/org.gnome.GnomeSubtitles.gschema.xml:23
+msgid "Encoding to use when auto detection fails."
+msgstr "Авто анықтау сәтсіз аяқталған кезде қолданылатын кодтау."
+
+#: data/org.gnome.GnomeSubtitles.gschema.xml:27
+msgid "File Save encoding option"
+msgstr "Файлды сақтау кодтау опциясы"
+
+#: data/org.gnome.GnomeSubtitles.gschema.xml:28
+msgid ""
+"Encoding option to use by default when saving files. Possible values are: "
+"\"KeepExisting\" to use the existing file's encoding, \"RememberLastUsed\" to "
+"remember the last used encoding, \"CurrentLocale\" to use the current locale, "
+"and \"Specific\" to use a specific encoding. The encoding for "
+"\"RememberLastUsed\" and \"Specific\" is stored in the file_save_encoding key."
+msgstr ""
+"Файлдарды сақтаған кезде үнсіз келісім бойынша қолданылатын кодтау опциясы. "
+"Мүмкін мәндері: бар файлдың кодтауын қолдану үшін «KeepExisting», соңғы "
+"қолданылған кодтауды есте сақтау үшін «RememberLastUsed», ағымдағы локальды "
+"қолдану үшін «CurrentLocale» және көрсетілген кодтауды қолдану үшін «Specific». "
+"«RememberLastUsed» және «Specific» үшін кодтау file_save_encoding кілтінде "
+"сақталады."
+
+#: data/org.gnome.GnomeSubtitles.gschema.xml:32
+msgid "File Save encoding"
+msgstr "Файлды сақтау кодтауы"
+
+#: data/org.gnome.GnomeSubtitles.gschema.xml:33
+msgid ""
+"Encoding to use when saving files. Besides the actual encoding, used when "
+"\"RememberLastUsed\" or \"Specific\" are set in the file_save_encoding_option "
+"key, other possible values are \"KeepExisting\" and \"CurrentLocale\"."
+msgstr ""
+"Файлдарды сақтаған кезде қолданылатын кодтау. Нақты кодтаудан басқа, "
+"file_save_encoding_option кілтінде «RememberLastUsed» немесе «Specific» "
+"орнатылған кезде қолданылатын басқа мүмкін мәндері — «KeepExisting» және "
+"«CurrentLocale»."
+
+#: data/org.gnome.GnomeSubtitles.gschema.xml:37
+msgid "File Save format option"
+msgstr "Файлды сақтау пішімі опциясы"
+
+#: data/org.gnome.GnomeSubtitles.gschema.xml:38
+msgid ""
+"Subtitle format option to use by default when saving files. Possible values "
+"are: \"KeepExisting\" to use the existing file's format, \"RememberLastUsed\" "
+"to remember the last used format, and \"Specific\" to use a specific format. "
+"The subtitle format for \"RememberLastUsed\" and \"Specific\" is stored in the "
+"file_save_format key."
+msgstr ""
+"Файлдарды сақтаған кезде үнсіз келісім бойынша қолданылатын субтитр пішімі "
+"опциясы. Мүмкін мәндері: бар файлдың пішімін қолдану үшін «KeepExisting», соңғы "
+"қолданылған пішімді есте сақтау үшін «RememberLastUsed» және көрсетілген "
+"пішімді қолдану үшін «Specific». «RememberLastUsed» және «Specific» үшін "
+"субтитр пішімі file_save_format кілтінде сақталады."
+
+#: data/org.gnome.GnomeSubtitles.gschema.xml:42
+msgid "File Save format"
+msgstr "Файлды сақтау пішімі"
+
+#: data/org.gnome.GnomeSubtitles.gschema.xml:43
+msgid ""
+"Subtitle format to use when saving files. Besides the actual format, used when "
+"\"RememberLastUsed\" or \"Specific\" are set in the file_save_format_option "
+"key, other possible values are \"KeepExisting\" and \"CurrentLocale\"."
+msgstr ""
+"Файлдарды сақтаған кезде қолданылатын субтитр пішімі. Нақты пішімнен басқа, "
+"file_save_format_option кілтінде «RememberLastUsed» немесе «Specific» "
+"орнатылған кезде қолданылатын басқа мүмкін мәндері — «KeepExisting» және "
+"«CurrentLocale»."
+
+#: data/org.gnome.GnomeSubtitles.gschema.xml:47
+msgid "File Save newline option"
+msgstr "Файлды сақтау жол тасымалдау опциясы"
+
+#: data/org.gnome.GnomeSubtitles.gschema.xml:48
+msgid ""
+"Newline option to use by default when saving files. Possible values are: "
+"\"RememberLastUsed\" to remember the last used newline type, and \"Specific\" "
+"to use a specific newline type. The newline type for \"RememberLastUsed\" and "
+"\"Specific\" is stored in the file_save_newline key."
+msgstr ""
+"Файлдарды сақтаған кезде үнсіз келісім бойынша қолданылатын жол тасымалдау "
+"опциясы. Мүмкін мәндері: соңғы қолданылған жол тасымалдау түрін есте сақтау "
+"үшін «RememberLastUsed» және көрсетілген жол тасымалдау түрін қолдану үшін "
+"«Specific». «RememberLastUsed» және «Specific» үшін жол тасымалдау түрі "
+"file_save_newline кілтінде сақталады."
+
+#: data/org.gnome.GnomeSubtitles.gschema.xml:52
+msgid "File Save newline"
+msgstr "Файлды сақтау жол тасымалы"
+
+#: data/org.gnome.GnomeSubtitles.gschema.xml:53
+msgid "Newline type to use when saving files."
+msgstr "Файлдарды сақтаған кезде қолданылатын жол тасымалдау түрі."
+
+#: data/org.gnome.GnomeSubtitles.gschema.xml:57
+msgid "Save translation when saving subtitles"
+msgstr "Субтитрлерді сақтаған кезде аудармасын сақтау"
+
+#: data/org.gnome.GnomeSubtitles.gschema.xml:58
+msgid "Whether to save existing translations when saving subtitles."
+msgstr "Субтитрлерді сақтаған кезде бар аудармаларды сақтау не сақтамау."
+
+#: data/org.gnome.GnomeSubtitles.gschema.xml:63
+msgid "Automatically choose the video file"
+msgstr "Видео файлды автоматты түрде таңдау"
+
+#: data/org.gnome.GnomeSubtitles.gschema.xml:64
+msgid ""
+"Whether to automatically choose the video file to open, when opening a subtitle "
+"file. A video file is chosen based on the name of the subtitle file."
+msgstr ""
+"Субтитр файлын ашқан кезде ашылатын видео файлды автоматты түрде таңдау не "
+"таңдамау. Видео файл субтитр файлының атына негізделіп таңдалады."
+
+#: data/org.gnome.GnomeSubtitles.gschema.xml:68
+msgid "Apply reaction delay"
+msgstr "Реакция кешігуін іске асыру"
+
+#: data/org.gnome.GnomeSubtitles.gschema.xml:69
+msgid ""
+"Whether to apply a reaction delay when setting the start or end times of a "
+"subtitle with the video playing."
+msgstr ""
+"Ойнатылып жатқан видеомен субтитрдің басталу немесе аяқталу уақытын орнатқан "
+"кезде реакция кешігуін іске асыру не асырмау."
+
+#: data/org.gnome.GnomeSubtitles.gschema.xml:73
+msgid "Reaction delay"
+msgstr "Реакция кешігуі"
+
+#: data/org.gnome.GnomeSubtitles.gschema.xml:74
+msgid ""
+"Time, in milliseconds, to subtract from the start or end times when setting "
+"them with the video playing."
+msgstr ""
+"Ойнатылып жатқан видеомен орнатқан кезде басталу немесе аяқталу уақытынан "
+"алынып тасталатын уақыт, миллисекунд есебімен."
+
+#: data/org.gnome.GnomeSubtitles.gschema.xml:78
+msgid "Seek the video on subtitles change"
+msgstr "Субтитрлер өзгергенде видеоны айналдыру"
+
+#: data/org.gnome.GnomeSubtitles.gschema.xml:79
+msgid ""
+"Whether to seek the video to the start of the first subtitle when one or more "
+"subtitles are changed."
+msgstr ""
+"Бір немесе бірнеше субтитр өзгерген кезде видеоны бірінші субтитрдің басына "
+"айналдыру не айналдырмау."
+
+#: data/org.gnome.GnomeSubtitles.gschema.xml:83
+msgid "Seek on change rewind"
+msgstr "Өзгеріс кезінде видеоны кері айналдыру"
+
+#: data/org.gnome.GnomeSubtitles.gschema.xml:84
+msgid ""
+"Time, in milliseconds, to rewind the video when seeking on subtitles change."
+msgstr ""
+"Субтитрлер өзгергенде айналдырған кезде видеоны кері айналдыру уақыты, "
+"миллисекунд есебімен."
+
+#: data/org.gnome.GnomeSubtitles.gschema.xml:89
+msgid "View line lengths"
+msgstr "Жолдар ұзындығын көру"
+
+#: data/org.gnome.GnomeSubtitles.gschema.xml:90
+msgid "Whether to view line lengths as characters counts in the subtitle list."
+msgstr "Субтитрлер тізімінде жол ұзындығын таңбалар саны ретінде көру не көрмеу."
+
+#: data/org.gnome.GnomeSubtitles.gschema.xml:94
+msgid "Window width"
+msgstr "Терезе ені"
+
+#: data/org.gnome.GnomeSubtitles.gschema.xml:95
+msgid "The width of the Main Window."
+msgstr "Негізгі терезенің ені."
+
+#: data/org.gnome.GnomeSubtitles.gschema.xml:99
+msgid "Window height"
+msgstr "Терезе биіктігі"
+
+#: data/org.gnome.GnomeSubtitles.gschema.xml:100
+msgid "The height of the Main Window."
+msgstr "Негізгі терезенің биіктігі."
+
+#: data/org.gnome.GnomeSubtitles.gschema.xml:105
+msgid "Active spellcheck language for text"
+msgstr "Мәтін үшін белсенді емле тексеру тілі"
+
+#: data/org.gnome.GnomeSubtitles.gschema.xml:106
+msgid "The language used to check the spelling of subtitle text."
+msgstr "Субтитр мәтінінің емлесін тексеру үшін қолданылатын тіл."
+
+#: data/org.gnome.GnomeSubtitles.gschema.xml:110
+msgid "Active spellcheck language for translation"
+msgstr "Аударма үшін белсенді емле тексеру тілі"
+
+#: data/org.gnome.GnomeSubtitles.gschema.xml:111
+msgid "The language used to check the spelling of subtitle translation."
+msgstr "Субтитр аудармасының емлесін тексеру үшін қолданылатын тіл."
+
+#: data/org.gnome.GnomeSubtitles.gschema.xml:115
+msgid "Autocheck spelling"
+msgstr "Емлені авто тексеру"
+
+#: data/org.gnome.GnomeSubtitles.gschema.xml:116
+msgid "Whether to automatically check the spelling of subtitle text."
+msgstr "Субтитр мәтінінің емлесін автоматты түрде тексеру не тексермеу."
+
+#: data/org.gnome.GnomeSubtitles.gschema.xml:121
+msgid "Auto backup"
+msgstr "Авто сақтық көшірме"
+
+#: data/org.gnome.GnomeSubtitles.gschema.xml:122
+msgid ""
+"Whether to automatically backup files. A copy of the file will be periodically "
+"saved with a ~ suffix."
+msgstr ""
+"Файлдардың сақтық көшірмесін автоматты түрде жасау не жасамау. Файл көшірмесі ~ "
+"жұрнағымен мерзімді түрде сақталады."
+
+#: data/org.gnome.GnomeSubtitles.gschema.xml:126
+msgid "Backup time"
+msgstr "Сақтық көшірме уақыты"
+
+#: data/org.gnome.GnomeSubtitles.gschema.xml:127
+msgid ""
+"Time interval, in seconds, to automatically backup files. A minimum of 30 "
+"seconds is recommended."
+msgstr ""
+"Файлдардың сақтық көшірмесін автоматты түрде жасаудың уақыт аралығы, секунд "
+"есебімен. Кемінде 30 секунд ұсынылады."
+
+#: data/org.gnome.GnomeSubtitles.gschema.xml:132
+msgid "Time step increment"
+msgstr "Уақыт қадамының өсімі"
+
+#: data/org.gnome.GnomeSubtitles.gschema.xml:133
+msgid ""
+"Time, in milliseconds, to add or subtract when adjusting times in spinbutton "
+"controls (e.g., start, end and duration)."
+msgstr ""
+"Сандық өріс (мысалы, басталуы, аяқталуы және ұзақтығы) арқылы уақытты реттеген "
+"кезде қосылатын немесе алынатын уақыт, миллисекунд есебімен."
+
+#: data/org.gnome.GnomeSubtitles.gschema.xml:137
+msgid "Frames step increment"
+msgstr "Кадрлар қадамының өсімі"
+
+#: data/org.gnome.GnomeSubtitles.gschema.xml:138
+msgid ""
+"Frames to add or subtract when adjusting frames in spinbutton controls (e.g., "
+"start, end and duration)."
+msgstr ""
+"Сандық өріс (мысалы, басталуы, аяқталуы және ұзақтығы) арқылы кадрларды "
+"реттеген кезде қосылатын немесе алынатын кадрлар саны."
+
+#: data/org.gnome.GnomeSubtitles.gschema.xml:142
+msgid "Time between subtitles"
+msgstr "Субтитрлер арасындағы уақыт"
+
+#: data/org.gnome.GnomeSubtitles.gschema.xml:143
+msgid ""
+"Recommended time between subtitles, in milliseconds, used for example when "
+"splitting a subtitle in two."
+msgstr ""
+"Субтитрлер арасындағы ұсынылатын уақыт, мысалы, бір субтитрді екіге бөлген "
+"кезде қолданылады, миллисекунд есебімен."
+
+#: src/External/GStreamer/GstBackend.cs:193
+msgid "The file contains no video or audio."
+msgstr "Файлда видео немесе аудио жоқ."
+
+#: src/External/GStreamer/GstBackend.cs:355
+msgid "Unable to obtain the complete media information."
+msgstr "Толық медиа ақпаратқа қол жеткізу мүмкін емес."
+
+#: src/Glade/MainWindow.ui:49
+msgid "_File"
+msgstr "_Файл"
+
+#: src/Glade/MainWindow.ui:59 src/Glade/MainWindow.ui:115
+msgid "_New"
+msgstr "_Жаңа"
+
+#: src/Glade/MainWindow.ui:69 src/Glade/MainWindow.ui:124
+#: src/Glade/MainWindow.ui:703
+msgid "_Open"
+msgstr "_Ашу"
+
+#: src/Glade/MainWindow.ui:79 src/Glade/MainWindow.ui:146
+msgid "_Save"
+msgstr "_Сақтау"
+
+#: src/Glade/MainWindow.ui:89 src/Glade/MainWindow.ui:156
+msgid "Save _As"
+msgstr "Қалайша с_ақтау"
+
+#: src/Glade/MainWindow.ui:105
+msgid "_Translation"
+msgstr "_Аударма"
+
+#: src/Glade/MainWindow.ui:135
+msgid "_Reload"
+msgstr "Қайта ж_үктеу"
+
+#: src/Glade/MainWindow.ui:166 src/Glade/MainWindow.ui:209
+#: src/Glade/MainWindow.ui:713
+msgid "_Close"
+msgstr "_Жабу"
+
+#: src/Glade/MainWindow.ui:185
+msgid "_Headers"
+msgstr "_Тақырыптамалар"
+
+#: src/Glade/MainWindow.ui:194
+msgid "_Properties"
+msgstr "Қ_асиеттері"
+
+#: src/Glade/MainWindow.ui:219
+msgid "_Quit"
+msgstr "_Шығу"
+
+#: src/Glade/MainWindow.ui:233
+msgid "_Edit"
+msgstr "Тү_зету"
+
+#: src/Glade/MainWindow.ui:243
+msgid "_Undo"
+msgstr "Б_олдырмау"
+
+#: src/Glade/MainWindow.ui:253
+msgid "_Redo"
+msgstr "Қа_йталау"
+
+#: src/Glade/MainWindow.ui:270
+msgid "Cu_t"
+msgstr "Қи_ып алу"
+
+#: src/Glade/MainWindow.ui:280
+msgid "_Copy"
+msgstr "_Көшіріп алу"
+
+#: src/Glade/MainWindow.ui:290
+msgid "_Paste"
+msgstr "Кіріс_тіру"
+
+#: src/Glade/MainWindow.ui:306
+msgid "_Format"
+msgstr "Пі_шім"
+
+#: src/Glade/MainWindow.ui:316
+msgid "_Bold"
+msgstr "_Жуан"
+
+#: src/Glade/MainWindow.ui:326
+msgid "_Italic"
+msgstr "_Көлбеу"
+
+#: src/Glade/MainWindow.ui:336
+msgid "_Underline"
+msgstr "Асты с_ызылған"
+
+#: src/Glade/MainWindow.ui:356
+msgid "_Split Lines"
+msgstr "Жолдарды бө_лу"
+
+#: src/Glade/MainWindow.ui:366
+msgid "_Merge Lines"
+msgstr "Жолдарды _біріктіру"
+
+#: src/Glade/MainWindow.ui:382
+msgid "_Insert Subtitle"
+msgstr "Субтитрді кі_рістіру"
+
+#: src/Glade/MainWindow.ui:392
+msgid "_Before"
+msgstr "_Дейін"
+
+#: src/Glade/MainWindow.ui:402
+msgid "_After"
+msgstr "_Кейін"
+
+#: src/Glade/MainWindow.ui:412
+msgid "At _Video Position"
+msgstr "_Видео позициясында"
+
+#: src/Glade/MainWindow.ui:426
+msgid "_Delete Subtitles"
+msgstr "Субтитрлерді ө_шіру"
+
+#: src/Glade/MainWindow.ui:441
+msgid "Pr_eferences"
+msgstr "Б_аптаулар"
+
+#: src/Glade/MainWindow.ui:454
+msgid "_View"
+msgstr "_Көрініс"
+
+#: src/Glade/MainWindow.ui:464
+msgid "_Frames"
+msgstr "Ка_дрлар"
+
+#: src/Glade/MainWindow.ui:475
+msgid "_Times"
+msgstr "_Уақыт"
+
+#: src/Glade/MainWindow.ui:492
+msgid "_Line Lengths"
+msgstr "Жо_л ұзындықтары"
+
+#: src/Glade/MainWindow.ui:507
+msgid "_Video"
+msgstr "_Видео"
+
+#: src/Glade/MainWindow.ui:516
+msgid "Video _Subtitles"
+msgstr "Видео с_убтитрлері"
+
+#: src/Glade/MainWindow.ui:526
+msgid "_Text"
+msgstr "Мә_тін"
+
+#: src/Glade/MainWindow.ui:537
+msgid "Translatio_n"
+msgstr "А_ударма"
+
+#: src/Glade/MainWindow.ui:556
+msgid "_Search"
+msgstr "І_здеу"
+
+#: src/Glade/MainWindow.ui:566
+msgid "_Find"
+msgstr "_Табу"
+
+#: src/Glade/MainWindow.ui:576
+msgid "Find Ne_xt"
+msgstr "Ке_лесісін табу"
+
+#: src/Glade/MainWindow.ui:587
+msgid "Find Pre_vious"
+msgstr "Ал_дыңғысын табу"
+
+#: src/Glade/MainWindow.ui:604 src/GnomeSubtitles/Dialog/SearchDialog.cs:172
+msgid "_Replace"
+msgstr "А_лмастыру"
+
+#: src/Glade/MainWindow.ui:618
+msgid "T_imings"
+msgstr "Уақ_ыттары"
+
+#: src/Glade/MainWindow.ui:628
+msgid "_Input Frame Rate"
+msgstr "Кі_ріс кадрлық жиілігі"
+
+#: src/Glade/MainWindow.ui:642
+msgid "_Current Frame Rate"
+msgstr "Ағ_ымдағы кадрлық жиілігі"
+
+#: src/Glade/MainWindow.ui:662
+msgid "_Synchronize"
+msgstr "С_инхрондау"
+
+#: src/Glade/MainWindow.ui:671
+msgid "_Adjust"
+msgstr "Р_еттеу"
+
+#: src/Glade/MainWindow.ui:680
+msgid "Sh_ift"
+msgstr "Ығ_ыстыру"
+
+#: src/Glade/MainWindow.ui:693
+msgid "Vide_o"
+msgstr "Виде_о"
+
+#: src/Glade/MainWindow.ui:729
+msgid "_Play / Pause"
+msgstr "_Ойнату / Аялдату"
+
+#: src/Glade/MainWindow.ui:741
+msgid "_Loop Selection"
+msgstr "Таңдалғанды қ_айталау"
+
+#: src/Glade/MainWindow.ui:752
+msgid "R_ewind"
+msgstr "К_ері айналдыру"
+
+#: src/Glade/MainWindow.ui:764
+msgid "_Forward"
+msgstr "А_лға айналдыру"
+
+#: src/Glade/MainWindow.ui:782
+msgid "_Seek to…"
+msgstr "_Дейін өту…"
+
+#: src/Glade/MainWindow.ui:793
+msgid "Seek _to Selection"
+msgstr "Таңдалғанға д_ейін айналдыру"
+
+#: src/Glade/MainWindow.ui:805
+msgid "Select _Nearest Subtitle"
+msgstr "Ең _жақын субтитрді таңдау"
+
+#: src/Glade/MainWindow.ui:817
+msgid "A_uto Select Subtitle"
+msgstr "С_убтитрді авто таңдау"
+
+#: src/Glade/MainWindow.ui:834
+msgid "Set Subtitle St_art"
+msgstr "Субтитр б_асталуын орнату"
+
+#: src/Glade/MainWindow.ui:845
+msgid "Set Subtitle En_d"
+msgstr "Субтитр а_яқталуын орнату"
+
+#: src/Glade/MainWindow.ui:859
+msgid "_Tools"
+msgstr "_Саймандар"
+
+#: src/Glade/MainWindow.ui:870
+msgid "_Autocheck Spelling"
+msgstr "Е_млені авто тексеру"
+
+#: src/Glade/MainWindow.ui:881
+msgid "Set _Languages"
+msgstr "_Тілдерді орнату"
+
+#: src/Glade/MainWindow.ui:894
+msgid "_Help"
+msgstr "_Көмек"
+
+#: src/Glade/MainWindow.ui:904
+msgid "_Keyboard Shortcuts"
+msgstr "П_ернетақта жарлықтары"
+
+#: src/Glade/MainWindow.ui:919
+msgid "_Donate"
+msgstr "Д_емеушілік ету"
+
+#: src/Glade/MainWindow.ui:934
+msgid "Request a New _Feature"
+msgstr "Жаңа мүмкіндік сұ_рау"
+
+#: src/Glade/MainWindow.ui:943
+msgid "Report a _Bug"
+msgstr "Ақ_ау туралы хабарлау"
+
+#: src/Glade/MainWindow.ui:958
+msgid "_About"
+msgstr "Осы турал_ы"
+
+#: src/Glade/MainWindow.ui:982
+msgid "New File"
+msgstr "Жаңа файл"
+
+#: src/Glade/MainWindow.ui:996 src/GnomeSubtitles/Dialog/FileOpenDialog.cs:52
+msgid "Open File"
+msgstr "Файлды ашу"
+
+#: src/Glade/MainWindow.ui:1010
+msgid "Save File"
+msgstr "Файлды сақтау"
+
+#: src/Glade/MainWindow.ui:1119
+msgid "Insert"
+msgstr "Кірістіру"
+
+#: src/Glade/MainWindow.ui:1133
+msgid "Delete"
+msgstr "Өшіру"
+
+#: src/Glade/MainWindow.ui:1233
+#: src/GnomeSubtitles/Ui/VideoPreview/VideoPosition.cs:193
+msgid "Time"
+msgstr "Уақыт"
+
+#: src/Glade/MainWindow.ui:1265 src/GnomeSubtitles/Ui/View/SubtitleView.cs:259
+msgid "Duration"
+msgstr "Ұзақтық"
+
+#: src/Glade/MainWindow.ui:1322
+msgid "Sets the subtitle Start to the current video position"
+msgstr "Субтитрдің басталуын ағымдағы видео позициясына орнатады"
+
+#: src/Glade/MainWindow.ui:1344
+msgid "Sets the subtitle End to the current video position"
+msgstr "Субтитрдің аяқталуын ағымдағы видео позициясына орнатады"
+
+#: src/Glade/MainWindow.ui:1367
+msgid ""
+"Sets the subtitle Start and End while the video is playing. Keep the button "
+"pressed for the duration of each subtitle."
+msgstr ""
+"Видео ойнатылып жатқанда субтитрдің басталуы мен аяқталуын орнатады. Батырманы "
+"әр субтитрдің ұзақтығы бойы басып тұрыңыз."
+
+#: src/Glade/MainWindow.ui:1594
+msgid "1.0x"
+msgstr "1.0x"
+
+#: src/Glade/MainWindow.ui:1723 src/Glade/MainWindow.ui:1737
+msgid ""
+"Tip: use Ctrl+Plus/Minus and Alt+Plus/Minus (on the numpad) to adjust start and "
+"end timings.\n"
+"Shift+Plus/Minus (on the numpad) shifts timings."
+msgstr ""
+"Кеңес: басталу және аяқталу уақыттарын реттеу үшін Ctrl+Плюс/Минус және "
+"Alt+Плюс/Минус (сандық пернетақтада) қолданыңыз.\n"
+"Shift+Плюс/Минус (сандық пернетақтада) уақыттарды ығыстырады."
+
+#. This is the start time/frame of a subtitle.
+#: src/Glade/MainWindow.ui:1726
+#: src/GnomeSubtitles/Dialog/TimingsAdjustDialog.cs:102
+#: src/GnomeSubtitles/Dialog/TimingsAdjustDialog.cs:128
+msgid "Start:"
+msgstr "Басталуы:"
+
+#: src/Glade/MainWindow.ui:1740
+msgid "End:"
+msgstr "Аяқталуы:"
+
+#. This is the duration of a subtitle.
+#: src/Glade/MainWindow.ui:1752
+msgid "Duration:"
+msgstr "Ұзақтығы:"
+
+#: src/GnomeSubtitles/Core/Command/AdjustTimingsCommand.cs:28
+msgid "Adjusting timings"
+msgstr "Уақыттарды реттеу"
+
+#: src/GnomeSubtitles/Core/Command/ChangeFrameRateCommand.cs:48
+msgid "Changing Input Frame Rate"
+msgstr "Кіріс кадрлық жиілігін өзгерту"
+
+#: src/GnomeSubtitles/Core/Command/ChangeFrameRateCommand.cs:68
+msgid "Changing Video Frame Rate"
+msgstr "Видео кадрлық жиілігін өзгерту"
+
+#: src/GnomeSubtitles/Core/Command/ChangeStyleCommand.cs:56
+msgid "Toggling Bold"
+msgstr "Жуан қаріпті қосу/сөндіру"
+
+#: src/GnomeSubtitles/Core/Command/ChangeStyleCommand.cs:67
+msgid "Toggling Italic"
+msgstr "Көлбеу қаріпті қосу/сөндіру"
+
+#: src/GnomeSubtitles/Core/Command/ChangeStyleCommand.cs:78
+msgid "Toggling Underline"
+msgstr "Асты сызылған қаріпті қосу/сөндіру"
+
+#: src/GnomeSubtitles/Core/Command/ChangeTimingCommand.cs:74
+msgid "Editing Start"
+msgstr "Басталуын түзету"
+
+#: src/GnomeSubtitles/Core/Command/ChangeTimingCommand.cs:98
+msgid "Editing End"
+msgstr "Аяқталуын түзету"
+
+#: src/GnomeSubtitles/Core/Command/ChangeTimingCommand.cs:120
+msgid "Editing Duration"
+msgstr "Ұзақтығын түзету"
+
+#: src/GnomeSubtitles/Core/Command/CommandManager.cs:71
+#: src/GnomeSubtitles/Ui/Menus.cs:708
+msgid "Undo"
+msgstr "Болдырмау"
+
+#: src/GnomeSubtitles/Core/Command/CommandManager.cs:80
+#: src/GnomeSubtitles/Ui/Menus.cs:718
+msgid "Redo"
+msgstr "Қайталау"
+
+#: src/GnomeSubtitles/Core/Command/DeleteSubtitlesCommand.cs:28
+msgid "Deleting Subtitles"
+msgstr "Субтитрлерді өшіру"
+
+#: src/GnomeSubtitles/Core/Command/DeleteTextCommand.cs:26
+#: src/GnomeSubtitles/Core/Command/InsertTextCommand.cs:26
+msgid "Editing Text"
+msgstr "Мәтінді түзету"
+
+#: src/GnomeSubtitles/Core/Command/DeleteTranslationCommand.cs:26
+#: src/GnomeSubtitles/Core/Command/InsertTranslationCommand.cs:26
+msgid "Editing Translation"
+msgstr "Аударманы түзету"
+
+#: src/GnomeSubtitles/Core/Command/InsertSubtitleCommand.cs:28
+msgid "Inserting Subtitle"
+msgstr "Субтитрді кірістіру"
+
+#: src/GnomeSubtitles/Core/Command/MergeSubtitlesCommand.cs:30
+msgid "Merging subtitles"
+msgstr "Субтитрлерді біріктіру"
+
+#: src/GnomeSubtitles/Core/Command/ReplaceAllCommand.cs:32
+msgid "Replacing All"
+msgstr "Барлығын алмастыру"
+
+#: src/GnomeSubtitles/Core/Command/ShiftTimingsCommand.cs:30
+msgid "Shifting timings"
+msgstr "Уақыттарды ығыстыру"
+
+#: src/GnomeSubtitles/Core/Command/SplitSubtitlesCommand.cs:32
+msgid "Splitting subtitles"
+msgstr "Субтитрлерді бөлу"
+
+#: src/GnomeSubtitles/Core/Command/SynchronizeTimingsCommand.cs:29
+msgid "Synchronizing timings"
+msgstr "Уақыттарды синхрондау"
+
+#: src/GnomeSubtitles/Core/Command/VideoSetSubtitleTimingCommand.cs:26
+msgid "Setting Subtitle Start"
+msgstr "Субтитр басталуын орнату"
+
+#: src/GnomeSubtitles/Core/Command/VideoSetSubtitleTimingCommand.cs:45
+msgid "Setting Subtitle End"
+msgstr "Субтитр аяқталуын орнату"
+
+#. To translators: this is the filename for new files (before being saved for
+#. the first time)
+#: src/GnomeSubtitles/Core/Document.cs:113
+msgid "Unsaved Subtitles"
+msgstr "Сақталмаған субтитрлер"
+
+#. To translators: this defines the name of a translation file. {0}=filename,
+#. {1}=language. Example: MovieName (fr translation)
+#: src/GnomeSubtitles/Core/Document.cs:122
+#, csharp-format
+msgid "{0} ({1} translation)"
+msgstr "{0} ({1} аударма)"
+
+#: src/GnomeSubtitles/Core/Document.cs:122
+#, csharp-format
+msgid "{0} (translation)"
+msgstr "{0} (аударма)"
+
+#. GEOSTD8, HZ not used
+#: src/GnomeSubtitles/Core/Encodings.cs:39 src/GnomeSubtitles/Core/Encodings.cs:51
+#: src/GnomeSubtitles/Core/Encodings.cs:84
+#: src/GnomeSubtitles/Core/Encodings.cs:109
+msgid "Western"
+msgstr "Батыс"
+
+#: src/GnomeSubtitles/Core/Encodings.cs:40 src/GnomeSubtitles/Core/Encodings.cs:85
+msgid "Central European"
+msgstr "Орталық еуропалық"
+
+#: src/GnomeSubtitles/Core/Encodings.cs:41
+msgid "South European"
+msgstr "Оңтүстік еуропалық"
+
+#: src/GnomeSubtitles/Core/Encodings.cs:42 src/GnomeSubtitles/Core/Encodings.cs:49
+#: src/GnomeSubtitles/Core/Encodings.cs:114
+msgid "Baltic"
+msgstr "Балтық"
+
+#. Added
+#: src/GnomeSubtitles/Core/Encodings.cs:43 src/GnomeSubtitles/Core/Encodings.cs:86
+#: src/GnomeSubtitles/Core/Encodings.cs:94
+#: src/GnomeSubtitles/Core/Encodings.cs:100
+#: src/GnomeSubtitles/Core/Encodings.cs:108
+msgid "Cyrillic"
+msgstr "Кириллица"
+
+#. Added
+#: src/GnomeSubtitles/Core/Encodings.cs:44 src/GnomeSubtitles/Core/Encodings.cs:92
+#: src/GnomeSubtitles/Core/Encodings.cs:113
+msgid "Arabic"
+msgstr "Араб"
+
+#. Added
+#: src/GnomeSubtitles/Core/Encodings.cs:45 src/GnomeSubtitles/Core/Encodings.cs:95
+#: src/GnomeSubtitles/Core/Encodings.cs:110
+msgid "Greek"
+msgstr "Грек"
+
+#. Added
+#: src/GnomeSubtitles/Core/Encodings.cs:46 src/GnomeSubtitles/Core/Encodings.cs:90
+#: src/GnomeSubtitles/Core/Encodings.cs:112
+msgid "Hebrew"
+msgstr "Иврит"
+
+#: src/GnomeSubtitles/Core/Encodings.cs:47 src/GnomeSubtitles/Core/Encodings.cs:87
+#: src/GnomeSubtitles/Core/Encodings.cs:111
+msgid "Turkish"
+msgstr "Түрік"
+
+#: src/GnomeSubtitles/Core/Encodings.cs:48 src/GnomeSubtitles/Core/Encodings.cs:93
+msgid "Nordic"
+msgstr "Скандинавиялық"
+
+#: src/GnomeSubtitles/Core/Encodings.cs:50
+msgid "Celtic"
+msgstr "Кельт"
+
+#: src/GnomeSubtitles/Core/Encodings.cs:52
+msgid "Romanian"
+msgstr "Румын"
+
+#. ISO-8859-8-I not used
+#. Added
+#. Little endian
+#. Added
+#: src/GnomeSubtitles/Core/Encodings.cs:55 src/GnomeSubtitles/Core/Encodings.cs:57
+#: src/GnomeSubtitles/Core/Encodings.cs:58 src/GnomeSubtitles/Core/Encodings.cs:59
+#: src/GnomeSubtitles/Core/Encodings.cs:60 src/GnomeSubtitles/Core/Encodings.cs:61
+#: src/GnomeSubtitles/Core/Encodings.cs:62 src/GnomeSubtitles/Core/Encodings.cs:63
+#: src/GnomeSubtitles/Core/Encodings.cs:64
+msgid "Unicode"
+msgstr "Юникод"
+
+#: src/GnomeSubtitles/Core/Encodings.cs:57
+msgid "UTF-8 without BOM"
+msgstr "BOM белгісіз UTF-8"
+
+#. Added
+#. UCS-2 and UCS-4 not used
+#: src/GnomeSubtitles/Core/Encodings.cs:67 src/GnomeSubtitles/Core/Encodings.cs:68
+msgid "Chinese Traditional"
+msgstr "Қытай дәстүрлі"
+
+#: src/GnomeSubtitles/Core/Encodings.cs:69
+msgid "Cyrillic/Russian"
+msgstr "Кириллица/Орыс"
+
+#. ARMSCII-8 not used
+#. Added
+#. Added
+#. ISO-IR-111, KOI8R, KOI8U not used
+#: src/GnomeSubtitles/Core/Encodings.cs:72 src/GnomeSubtitles/Core/Encodings.cs:73
+#: src/GnomeSubtitles/Core/Encodings.cs:97
+#: src/GnomeSubtitles/Core/Encodings.cs:104
+msgid "Japanese"
+msgstr "Жапон"
+
+#. EUC-JP-MS not used
+#: src/GnomeSubtitles/Core/Encodings.cs:76 src/GnomeSubtitles/Core/Encodings.cs:98
+#: src/GnomeSubtitles/Core/Encodings.cs:99
+msgid "Korean"
+msgstr "Корей"
+
+#. EUC-TW not used
+#: src/GnomeSubtitles/Core/Encodings.cs:79 src/GnomeSubtitles/Core/Encodings.cs:80
+#: src/GnomeSubtitles/Core/Encodings.cs:81
+msgid "Chinese Simplified"
+msgstr "Қытай жеңілдетілген"
+
+#: src/GnomeSubtitles/Core/Encodings.cs:88
+msgid "Portuguese"
+msgstr "Португал"
+
+#. Added
+#: src/GnomeSubtitles/Core/Encodings.cs:89
+msgid "Icelandic"
+msgstr "Исланд"
+
+#: src/GnomeSubtitles/Core/Encodings.cs:91
+msgid "French Canadian"
+msgstr "Француз канадалық"
+
+#: src/GnomeSubtitles/Core/Encodings.cs:101
+msgid "Cyrillic/Ukrainian"
+msgstr "Кириллица/Украин"
+
+#. TCVN, TIS-620, UHC, VISCII not used
+#: src/GnomeSubtitles/Core/Encodings.cs:107
+msgid "Central"
+msgstr "Орталық"
+
+#: src/GnomeSubtitles/Core/Encodings.cs:115
+msgid "Vietnamese"
+msgstr "Вьетнам"
+
+#: src/GnomeSubtitles/Core/Encodings.cs:126
+msgid "Current Locale"
+msgstr "Ағымдағы локаль"
+
+#: src/GnomeSubtitles/Core/SpellLanguage.cs:30
+msgid "Unknown"
+msgstr "Белгісіз"
+
+#: src/GnomeSubtitles/Dialog/AboutDialog.cs:41
+msgid "About Gnome Subtitles"
+msgstr "Gnome Subtitles туралы"
+
+#: src/GnomeSubtitles/Dialog/DialogStrings.cs:26
+msgid "_All subtitles"
+msgstr "Б_арлық субтитрлер"
+
+#: src/GnomeSubtitles/Dialog/DialogStrings.cs:27
+msgid "_Selected subtitles"
+msgstr "Таң_далған субтитрлер"
+
+#: src/GnomeSubtitles/Dialog/DialogStrings.cs:28
+msgid "Subtitles between those selected and the _first"
+msgstr "Таңдалған және _бірінші субтитр арасындағы субтитрлер"
+
+#: src/GnomeSubtitles/Dialog/DialogStrings.cs:29
+msgid "Subtitles between those selected and the _last"
+msgstr "Таңдалған және соңғ_ы субтитр арасындағы субтитрлер"
+
+#: src/GnomeSubtitles/Dialog/EncodingsDialog.cs:56
+msgid "Character Encodings"
+msgstr "Таңбалар кодтаулары"
+
+#. Left part: Available VBox
+#: src/GnomeSubtitles/Dialog/EncodingsDialog.cs:69
+msgid "Available Encodings"
+msgstr "Қолжетімді кодтаулар"
+
+#. Right part: Shown VBox
+#: src/GnomeSubtitles/Dialog/EncodingsDialog.cs:86
+msgid "Chosen Encodings"
+msgstr "Таңдалған кодтаулар"
+
+#: src/GnomeSubtitles/Dialog/EncodingsDialog.cs:140
+msgid "Description"
+msgstr "Сипаттамасы"
+
+#: src/GnomeSubtitles/Dialog/EncodingsDialog.cs:144
+msgid "Encoding"
+msgstr "Кодтау"
+
+#: src/GnomeSubtitles/Dialog/FileHeadersDialog.cs:49
+msgid "Headers"
+msgstr "Тақырыптамалар"
+
+#: src/GnomeSubtitles/Dialog/FileHeadersDialog.cs:65
+#: src/GnomeSubtitles/Dialog/FileHeadersDialog.cs:93
+#: src/GnomeSubtitles/Dialog/FileHeadersDialog.cs:109
+#: src/GnomeSubtitles/Dialog/FileHeadersDialog.cs:136
+#: src/GnomeSubtitles/Dialog/FileHeadersDialog.cs:153
+msgid "Title:"
+msgstr "Атауы:"
+
+#: src/GnomeSubtitles/Dialog/FileHeadersDialog.cs:67
+#: src/GnomeSubtitles/Dialog/FileHeadersDialog.cs:82
+#: src/GnomeSubtitles/Dialog/FileHeadersDialog.cs:97
+#: src/GnomeSubtitles/Dialog/FileHeadersDialog.cs:138
+#: src/GnomeSubtitles/Dialog/FileHeadersDialog.cs:155
+msgid "Author:"
+msgstr "Авторы:"
+
+#: src/GnomeSubtitles/Dialog/FileHeadersDialog.cs:69
+msgid "Artist:"
+msgstr "Орындаушы:"
+
+#: src/GnomeSubtitles/Dialog/FileHeadersDialog.cs:71
+msgid "Album:"
+msgstr "Альбомы:"
+
+#: src/GnomeSubtitles/Dialog/FileHeadersDialog.cs:73
+msgid "By:"
+msgstr "Орындаған:"
+
+#: src/GnomeSubtitles/Dialog/FileHeadersDialog.cs:75
+msgid "Version:"
+msgstr "Нұсқасы:"
+
+#: src/GnomeSubtitles/Dialog/FileHeadersDialog.cs:77
+#: src/GnomeSubtitles/Dialog/FileHeadersDialog.cs:142
+#: src/GnomeSubtitles/Dialog/FileHeadersDialog.cs:159
+msgid "Program:"
+msgstr "Бағдарлама:"
+
+#: src/GnomeSubtitles/Dialog/FileHeadersDialog.cs:84
+#: src/GnomeSubtitles/Dialog/FileHeadersDialog.cs:140
+#: src/GnomeSubtitles/Dialog/FileHeadersDialog.cs:157
+msgid "Source:"
+msgstr "Көзі:"
+
+#: src/GnomeSubtitles/Dialog/FileHeadersDialog.cs:86
+msgid "Date:"
+msgstr "Күні:"
+
+#: src/GnomeSubtitles/Dialog/FileHeadersDialog.cs:88
+msgid "Frame Rate:"
+msgstr "Кадрлық жиілігі:"
+
+#: src/GnomeSubtitles/Dialog/FileHeadersDialog.cs:95
+msgid "File:"
+msgstr "Файл:"
+
+#: src/GnomeSubtitles/Dialog/FileHeadersDialog.cs:99
+msgid "Note:"
+msgstr "Ескертпе:"
+
+#: src/GnomeSubtitles/Dialog/FileHeadersDialog.cs:101
+msgid "Media Type:"
+msgstr "Медиа түрі:"
+
+#: src/GnomeSubtitles/Dialog/FileHeadersDialog.cs:103
+msgid "Audio"
+msgstr "Аудио"
+
+#: src/GnomeSubtitles/Dialog/FileHeadersDialog.cs:104
+#: src/GnomeSubtitles/Ui/Menus.cs:38
+msgid "Video"
+msgstr "Видео"
+
+#: src/GnomeSubtitles/Dialog/FileHeadersDialog.cs:111
+msgid "Original Script:"
+msgstr "Түпнұсқа сценарий:"
+
+#: src/GnomeSubtitles/Dialog/FileHeadersDialog.cs:113
+msgid "Original Translation:"
+msgstr "Түпнұсқа аударма:"
+
+#: src/GnomeSubtitles/Dialog/FileHeadersDialog.cs:115
+msgid "Original Editing:"
+msgstr "Түпнұсқа түзету:"
+
+#: src/GnomeSubtitles/Dialog/FileHeadersDialog.cs:117
+msgid "Original Timing:"
+msgstr "Түпнұсқа уақыты:"
+
+#: src/GnomeSubtitles/Dialog/FileHeadersDialog.cs:119
+msgid "Original Script Checking:"
+msgstr "Түпнұсқа сценарийді тексеру:"
+
+#: src/GnomeSubtitles/Dialog/FileHeadersDialog.cs:121
+msgid "Script Updated By:"
+msgstr "Сценарийді жаңартқан:"
+
+#: src/GnomeSubtitles/Dialog/FileHeadersDialog.cs:123
+msgid "Collisions:"
+msgstr "Қақтығыстар:"
+
+#: src/GnomeSubtitles/Dialog/FileHeadersDialog.cs:125
+msgid "Timer:"
+msgstr "Таймер:"
+
+#: src/GnomeSubtitles/Dialog/FileHeadersDialog.cs:127
+msgid "Play Res X:"
+msgstr "Ойнатудың X ажыратымдылығы:"
+
+#: src/GnomeSubtitles/Dialog/FileHeadersDialog.cs:129
+msgid "Play Res Y:"
+msgstr "Ойнатудың Y ажыратымдылығы:"
+
+#: src/GnomeSubtitles/Dialog/FileHeadersDialog.cs:131
+msgid "Play Depth:"
+msgstr "Ойнату тереңдігі:"
+
+#: src/GnomeSubtitles/Dialog/FileHeadersDialog.cs:144
+#: src/GnomeSubtitles/Dialog/FileHeadersDialog.cs:161
+msgid "File Path:"
+msgstr "Файл жолы:"
+
+#: src/GnomeSubtitles/Dialog/FileHeadersDialog.cs:146
+#: src/GnomeSubtitles/Dialog/FileHeadersDialog.cs:171
+msgid "Delay:"
+msgstr "Кешігу:"
+
+#: src/GnomeSubtitles/Dialog/FileHeadersDialog.cs:148
+#: src/GnomeSubtitles/Dialog/FileHeadersDialog.cs:173
+msgid "CD Track:"
+msgstr "CD трегі:"
+
+#: src/GnomeSubtitles/Dialog/FileHeadersDialog.cs:163
+msgid "Font Name:"
+msgstr "Қаріп аты:"
+
+#: src/GnomeSubtitles/Dialog/FileHeadersDialog.cs:165
+msgid "Font Color:"
+msgstr "Қаріп түсі:"
+
+#: src/GnomeSubtitles/Dialog/FileHeadersDialog.cs:167
+msgid "Font Style:"
+msgstr "Қаріп стилі:"
+
+#: src/GnomeSubtitles/Dialog/FileHeadersDialog.cs:169
+msgid "Font Size:"
+msgstr "Қаріп өлшемі:"
+
+#: src/GnomeSubtitles/Dialog/FileOpenDialog.cs:111
+msgid "Video to Open:"
+msgstr "Ашылатын видео:"
+
+#: src/GnomeSubtitles/Dialog/FileOpenDialog.cs:126
+#: src/GnomeSubtitles/Dialog/FileSaveDialog.cs:107
+msgid "Character Encoding:"
+msgstr "Таңбалар кодтауы:"
+
+#: src/GnomeSubtitles/Dialog/FileOpenDialog.cs:208
+msgid "None"
+msgstr "Жоқ"
+
+#: src/GnomeSubtitles/Dialog/FileOpenDialog.cs:276
+#: src/GnomeSubtitles/Dialog/VideoOpenDialog.cs:102
+msgid "All Files"
+msgstr "Барлық файлдар"
+
+#: src/GnomeSubtitles/Dialog/FileOpenDialog.cs:283
+msgid "All Subtitle Files"
+msgstr "Барлық субтитр файлдары"
+
+#: src/GnomeSubtitles/Dialog/FilePropertiesDialog.cs:42
+msgid "File Properties"
+msgstr "Файл қасиеттері"
+
+#: src/GnomeSubtitles/Dialog/FilePropertiesDialog.cs:49
+msgid "File Name"
+msgstr "Файл аты"
+
+#: src/GnomeSubtitles/Dialog/FilePropertiesDialog.cs:52
+msgid "Path"
+msgstr "Жолы"
+
+#: src/GnomeSubtitles/Dialog/FilePropertiesDialog.cs:55
+msgid "Character Encoding"
+msgstr "Таңбалар кодтауы"
+
+#: src/GnomeSubtitles/Dialog/FilePropertiesDialog.cs:58
+msgid "Subtitle Format"
+msgstr "Субтитр пішімі"
+
+#: src/GnomeSubtitles/Dialog/FilePropertiesDialog.cs:61
+msgid "Timing Mode"
+msgstr "Уақыт режимі"
+
+#: src/GnomeSubtitles/Dialog/FileSaveDialog.cs:41
+msgid "Save As"
+msgstr "Қалайша сақтау"
+
+#: src/GnomeSubtitles/Dialog/FileSaveDialog.cs:100
+msgid "Subtitle Format:"
+msgstr "Субтитр пішімі:"
+
+#: src/GnomeSubtitles/Dialog/FileSaveDialog.cs:114
+msgid "Line Ending:"
+msgstr "Жолдың аяқталуы:"
+
+#: src/GnomeSubtitles/Dialog/FileTranslationOpenDialog.cs:27
+msgid "Open Translation File"
+msgstr "Аударма файлын ашу"
+
+#: src/GnomeSubtitles/Dialog/FileTranslationSaveDialog.cs:27
+msgid "Save Translation As"
+msgstr "Аударманы қалайша сақтау"
+
+#: src/GnomeSubtitles/Dialog/Message/ErrorDialog.cs:40
+msgid ""
+"An unknown error has occurred. Please report a bug and include this error name:"
+msgstr "Белгісіз қате орын алды. Ақау туралы хабарлап, осы қате атын қосыңыз:"
+
+#. Strings
+#: src/GnomeSubtitles/Dialog/Message/FileSaveErrorDialog.cs:32
+msgid "Could not save the file"
+msgstr "Файлды сақтау мүмкін емес"
+
+#: src/GnomeSubtitles/Dialog/Message/FileSaveErrorDialog.cs:33
+msgid "Save to another file"
+msgstr "Басқа файлға сақтау"
+
+#: src/GnomeSubtitles/Dialog/Message/FileSaveErrorDialog.cs:61
+#: src/GnomeSubtitles/Dialog/Message/SubtitleFileOpenErrorDialog.cs:76
+msgid "You have run out of memory. Please close some programs and try again."
+msgstr "Жады таусылды. Бірнеше бағдарламаны жауып, қайталап көріңіз."
+
+#: src/GnomeSubtitles/Dialog/Message/FileSaveErrorDialog.cs:63
+#: src/GnomeSubtitles/Dialog/Message/SubtitleFileOpenErrorDialog.cs:78
+msgid "An I/O error has occurred."
+msgstr "Енгізу/шығару қатесі орын алды."
+
+#: src/GnomeSubtitles/Dialog/Message/FileSaveErrorDialog.cs:65
+msgid "You do not have the permissions necessary to save the file."
+msgstr "Файлды сақтау үшін сізде қажетті рұқсаттар жоқ."
+
+#: src/GnomeSubtitles/Dialog/Message/FileSaveErrorDialog.cs:67
+#: src/GnomeSubtitles/Dialog/Message/SubtitleFileOpenErrorDialog.cs:82
+msgid "The specified file is invalid."
+msgstr "Көрсетілген файл жарамсыз."
+
+#. Strings
+#: src/GnomeSubtitles/Dialog/Message/SaveConfirmationDialog.cs:32
+msgid "If you don't save, all your changes will be permanently lost."
+msgstr "Егер сақтамасаңыз, барлық өзгерістеріңіз біржолата жоғалады."
+
+#. Strings
+#: src/GnomeSubtitles/Dialog/Message/SaveConfirmationDialog.cs:90
+#, csharp-format
+msgid "Save the changes to subtitles \"{0}\" before creating new subtitles?"
+msgstr ""
+"Жаңа субтитрлерді жасамас бұрын «{0}» субтитрлеріне жасалған өзгерістерді "
+"сақтау керек пе?"
+
+#: src/GnomeSubtitles/Dialog/Message/SaveConfirmationDialog.cs:91
+msgid "Create without Saving"
+msgstr "Сақтаусыз жасау"
+
+#: src/GnomeSubtitles/Dialog/Message/SaveConfirmationDialog.cs:110
+#, csharp-format
+msgid "Save the changes to translation \"{0}\" before creating new subtitles?"
+msgstr ""
+"Жаңа субтитрлерді жасамас бұрын «{0}» аудармасына жасалған өзгерістерді сақтау "
+"керек пе?"
+
+#: src/GnomeSubtitles/Dialog/Message/SaveConfirmationDialog.cs:117
+#, csharp-format
+msgid "Save the changes to translation \"{0}\" before creating a new translation?"
+msgstr ""
+"Жаңа аударманы жасамас бұрын «{0}» аудармасына жасалған өзгерістерді сақтау "
+"керек пе?"
+
+#: src/GnomeSubtitles/Dialog/Message/SaveConfirmationDialog.cs:127
+#, csharp-format
+msgid "Save the changes to subtitles \"{0}\" before opening?"
+msgstr "Ашпас бұрын «{0}» субтитрлеріне жасалған өзгерістерді сақтау керек пе?"
+
+#: src/GnomeSubtitles/Dialog/Message/SaveConfirmationDialog.cs:128
+msgid "Open without Saving"
+msgstr "Сақтаусыз ашу"
+
+#: src/GnomeSubtitles/Dialog/Message/SaveConfirmationDialog.cs:147
+#, csharp-format
+msgid "Save the changes to translation \"{0}\" before opening?"
+msgstr "Ашпас бұрын «{0}» аудармасына жасалған өзгерістерді сақтау керек пе?"
+
+#: src/GnomeSubtitles/Dialog/Message/SaveConfirmationDialog.cs:156
+#, csharp-format
+msgid "Save the changes to subtitles \"{0}\" before closing?"
+msgstr "Жабу алдында «{0}» субтитрлеріне жасалған өзгерістерді сақтау керек пе?"
+
+#: src/GnomeSubtitles/Dialog/Message/SaveConfirmationDialog.cs:157
+msgid "Close without Saving"
+msgstr "Сақтаусыз жабу"
+
+#: src/GnomeSubtitles/Dialog/Message/SaveConfirmationDialog.cs:175
+#, csharp-format
+msgid "Save the changes to translation \"{0}\" before closing?"
+msgstr "Жабу алдында «{0}» аудармасына жасалған өзгерістерді сақтау керек пе?"
+
+#: src/GnomeSubtitles/Dialog/Message/SubtitleFileOpenErrorDialog.cs:32
+#, csharp-format
+msgid "Could not open the file {0}."
+msgstr "{0} файлын ашу мүмкін емес."
+
+#: src/GnomeSubtitles/Dialog/Message/SubtitleFileOpenErrorDialog.cs:33
+#: src/GnomeSubtitles/Dialog/Message/VideoFileOpenErrorDialog.cs:28
+msgid "Open another file"
+msgstr "Басқа файлды ашу"
+
+#: src/GnomeSubtitles/Dialog/Message/SubtitleFileOpenErrorDialog.cs:72
+msgid ""
+"Unable to detect the subtitle format. Please check that the file type is "
+"supported."
+msgstr ""
+"Субтитр пішімін анықтау мүмкін емес. Файл түрі қолдау табатынын тексеріңіз."
+
+#: src/GnomeSubtitles/Dialog/Message/SubtitleFileOpenErrorDialog.cs:74
+msgid ""
+"The encoding used is not supported by your system. Please choose another "
+"encoding."
+msgstr "Қолданылған кодтауды сіздің жүйеңіз қолдамайды. Басқа кодтауды таңдаңыз."
+
+#: src/GnomeSubtitles/Dialog/Message/SubtitleFileOpenErrorDialog.cs:80
+msgid "You do not have the permissions necessary to open the file."
+msgstr "Файлды ашу үшін сізде қажетті рұқсаттар жоқ."
+
+#: src/GnomeSubtitles/Dialog/Message/SubtitleFileOpenErrorDialog.cs:84
+msgid "The file could not be found."
+msgstr "Файл табылмады."
+
+#: src/GnomeSubtitles/Dialog/Message/SubtitleFileOpenErrorDialog.cs:86
+msgid "The file appears to be too large for a text-based subtitle file."
+msgstr "Файл мәтінге негізделген субтитр файлы үшін тым үлкен сияқты."
+
+#: src/GnomeSubtitles/Dialog/Message/SubtitleFileOpenErrorDialog.cs:88
+msgid "The file path appears to be invalid."
+msgstr "Файл жолы жарамсыз сияқты."
+
+#: src/GnomeSubtitles/Dialog/Message/VideoFileOpenErrorDialog.cs:27
+#, csharp-format
+msgid "Could not play the file '{0}'."
+msgstr "«{0}» файлын ойнату мүмкін емес."
+
+#: src/GnomeSubtitles/Dialog/PreferencesDialog.cs:51
+msgid "Preferences"
+msgstr "Баптаулар"
+
+#: src/GnomeSubtitles/Dialog/PreferencesDialog.cs:58
+msgid "Files"
+msgstr "Файлдар"
+
+#: src/GnomeSubtitles/Dialog/PreferencesDialog.cs:59
+msgid "Editing"
+msgstr "Түзету"
+
+#. Translation File Saving
+#: src/GnomeSubtitles/Dialog/PreferencesDialog.cs:73
+msgid "When saving subtitle files, automatically save their _translation"
+msgstr ""
+"Субтитр файлдарын сақтаған кезде, олардың а_удармасын автоматты түрде сақтау"
+
+#: src/GnomeSubtitles/Dialog/PreferencesDialog.cs:76
+msgid "Translation File Saving"
+msgstr "Аударма файлын сақтау"
+
+#: src/GnomeSubtitles/Dialog/PreferencesDialog.cs:85
+msgid "Character _encoding to use:"
+msgstr "Қолданылатын таңбалар к_одтауы:"
+
+#: src/GnomeSubtitles/Dialog/PreferencesDialog.cs:91
+msgid "If auto detection _fails, use:"
+msgstr "Егер авто анықтау сә_тсіз аяқталса, мынаны қолдану:"
+
+#: src/GnomeSubtitles/Dialog/PreferencesDialog.cs:97
+msgid "Automatically choose the _video file to open"
+msgstr "Ашылатын _видео файлды автоматты түрде таңдау"
+
+#: src/GnomeSubtitles/Dialog/PreferencesDialog.cs:102
+msgid "File Open Dialog"
+msgstr "Файлды ашу сұхбат терезесі"
+
+#: src/GnomeSubtitles/Dialog/PreferencesDialog.cs:111
+msgid "_Subtitle format to use:"
+msgstr "Қолданылатын с_убтитр пішімі:"
+
+#: src/GnomeSubtitles/Dialog/PreferencesDialog.cs:117
+msgid "Ch_aracter encoding to use:"
+msgstr "Қолданылатын таңб_алар кодтауы:"
+
+#: src/GnomeSubtitles/Dialog/PreferencesDialog.cs:123
+msgid "_Newline type to use:"
+msgstr "Қолданылатын ж_ол тасымалдау түрі:"
+
+#: src/GnomeSubtitles/Dialog/PreferencesDialog.cs:129
+msgid "File Save As Dialog"
+msgstr "Файлды қалайша сақтау сұхбат терезесі"
+
+#: src/GnomeSubtitles/Dialog/PreferencesDialog.cs:137
+msgid "Create a _backup copy of files every"
+msgstr "Файлдардың с_ақтық көшірмесін әр"
+
+#: src/GnomeSubtitles/Dialog/PreferencesDialog.cs:150
+msgid "minutes"
+msgstr "минут сайын жасау"
+
+#: src/GnomeSubtitles/Dialog/PreferencesDialog.cs:152
+msgid "Backup"
+msgstr "Сақтық көшірме"
+
+#: src/GnomeSubtitles/Dialog/PreferencesDialog.cs:165
+msgid "_Seek the video to the selected subtitle when changing timings"
+msgstr "Уақыттарды өзгерткен кезде видеоны таңдалған субтитрге дейін а_йналдыру"
+
+#: src/GnomeSubtitles/Dialog/PreferencesDialog.cs:171
+msgid "Play"
+msgstr "Ойнату"
+
+#: src/GnomeSubtitles/Dialog/PreferencesDialog.cs:178
+msgid "ms before the actual start to help review new timings"
+msgstr "нақты басталуға дейінгі мс (жаңа уақыттарды қарау үшін)"
+
+#: src/GnomeSubtitles/Dialog/PreferencesDialog.cs:181
+msgid "Video Seeking"
+msgstr "Видеоны айналдыру"
+
+#: src/GnomeSubtitles/Dialog/PreferencesDialog.cs:187
+msgid "Leave"
+msgstr "Қалдыру"
+
+#: src/GnomeSubtitles/Dialog/PreferencesDialog.cs:193
+msgid "ms between subtitles when inserting or splitting"
+msgstr "субтитрлерді кірістіру немесе бөлу кезіндегі субтитрлер арасындағы мс"
+
+#: src/GnomeSubtitles/Dialog/PreferencesDialog.cs:195
+msgid "Gap Between Subtitles"
+msgstr "Субтитрлер арасындағы аралық"
+
+#: src/GnomeSubtitles/Dialog/PreferencesDialog.cs:203
+msgid "Subtr_act"
+msgstr "А_лып тастау"
+
+#: src/GnomeSubtitles/Dialog/PreferencesDialog.cs:215
+msgid "ms when setting subtitle start/end while playing the video"
+msgstr ""
+"видео ойнатылып жатқанда субтитрдің басталуын/аяқталуын орнатқан кездегі мс"
+
+#: src/GnomeSubtitles/Dialog/PreferencesDialog.cs:216
+msgid "Reaction Delay"
+msgstr "Реакция кешігуі"
+
+#: src/GnomeSubtitles/Dialog/PreferencesDialog.cs:222
+#: src/GnomeSubtitles/Dialog/PreferencesDialog.cs:257
+msgid "Remember the last used encoding"
+msgstr "Соңғы қолданылған кодтауды есте сақтау"
+
+#: src/GnomeSubtitles/Dialog/PreferencesDialog.cs:257
+msgid "Keep the encoding used on file open"
+msgstr "Файл ашылған кезде қолданылған кодтауды сақтау"
+
+#: src/GnomeSubtitles/Dialog/PreferencesDialog.cs:276
+msgid "Keep the format used on file open"
+msgstr "Файл ашылған кезде қолданылған пішімді сақтау"
+
+#: src/GnomeSubtitles/Dialog/PreferencesDialog.cs:276
+msgid "Remember the last used format"
+msgstr "Соңғы қолданылған пішімді есте сақтау"
+
+#: src/GnomeSubtitles/Dialog/PreferencesDialog.cs:292
+msgid "Remember the last used type"
+msgstr "Соңғы қолданылған түрді есте сақтау"
+
+#: src/GnomeSubtitles/Dialog/SearchDialog.cs:104
+msgid "Replace"
+msgstr "Алмастыру"
+
+#: src/GnomeSubtitles/Dialog/SearchDialog.cs:104
+msgid "Find"
+msgstr "Табу"
+
+#: src/GnomeSubtitles/Dialog/SearchDialog.cs:130
+msgid "F_ind"
+msgstr "_Табу"
+
+#: src/GnomeSubtitles/Dialog/SearchDialog.cs:139
+msgid "Replace _with"
+msgstr "Осыған а_лмастыру"
+
+#: src/GnomeSubtitles/Dialog/SearchDialog.cs:148
+msgid "_Match case"
+msgstr "Регистрді е_скеру"
+
+#: src/GnomeSubtitles/Dialog/SearchDialog.cs:152
+msgid "Search _backwards"
+msgstr "Ке_рі іздеу"
+
+#: src/GnomeSubtitles/Dialog/SearchDialog.cs:156
+msgid "Regular _expression"
+msgstr "Тұрақты ө_рнек"
+
+#: src/GnomeSubtitles/Dialog/SearchDialog.cs:160
+msgid "Wra_p around"
+msgstr "Басынан баста_п іздеу"
+
+#. Action area
+#: src/GnomeSubtitles/Dialog/SearchDialog.cs:169
+msgid "Replace _All"
+msgstr "Барлығ_ын алмастыру"
+
+#: src/GnomeSubtitles/Dialog/SetLanguagesDialog.cs:40
+msgid "Set Languages"
+msgstr "Тілдерді орнату"
+
+#. Left part: Text Language
+#: src/GnomeSubtitles/Dialog/SetLanguagesDialog.cs:55
+msgid "Text Language"
+msgstr "Мәтін тілі"
+
+#. Right part: Translation Language
+#: src/GnomeSubtitles/Dialog/SetLanguagesDialog.cs:67
+msgid "Translation Language"
+msgstr "Аударма тілі"
+
+#: src/GnomeSubtitles/Dialog/SetLanguagesDialog.cs:84
+#, csharp-format
+msgid ""
+"Use your distro's package manager to install additional languages (tip: search "
+"for 'spell'). Supported language packs: {0}."
+msgstr ""
+"Қосымша тілдерді орнату үшін дистрибутивтің дестелер басқарушысын қолданыңыз "
+"(кеңес: 'spell' деп іздеңіз). Қолдау табатын тіл дестелері: {0}."
+
+#: src/GnomeSubtitles/Dialog/TimingsAdjustDialog.cs:81
+msgid "Adjust Timings Between 2 Points"
+msgstr "2 нүкте арасындағы уақыттарды реттеу"
+
+#: src/GnomeSubtitles/Dialog/TimingsAdjustDialog.cs:82
+#: src/GnomeSubtitles/Dialog/TimingsSynchronizeDialog.cs:72
+msgid "_Apply"
+msgstr "_Іске асыру"
+
+#: src/GnomeSubtitles/Dialog/TimingsAdjustDialog.cs:98
+#: src/GnomeSubtitles/Dialog/TimingsAdjustDialog.cs:124
+msgid "Subtitle No.:"
+msgstr "Субтитр №:"
+
+#: src/GnomeSubtitles/Dialog/TimingsAdjustDialog.cs:106
+#: src/GnomeSubtitles/Dialog/TimingsAdjustDialog.cs:132
+msgid "New Start:"
+msgstr "Жаңа басталуы:"
+
+#: src/GnomeSubtitles/Dialog/TimingsAdjustDialog.cs:114
+msgid "First Point"
+msgstr "Бірінші нүкте"
+
+#: src/GnomeSubtitles/Dialog/TimingsAdjustDialog.cs:139
+msgid "Second Point"
+msgstr "Екінші нүкте"
+
+#: src/GnomeSubtitles/Dialog/TimingsAdjustDialog.cs:162
+#: src/GnomeSubtitles/Dialog/TimingsShiftDialog.cs:112
+#: src/GnomeSubtitles/Dialog/TimingsSynchronizeDialog.cs:123
+msgid "Apply To"
+msgstr "Мынаған іске асыру"
+
+#: src/GnomeSubtitles/Dialog/TimingsShiftDialog.cs:67
+msgid "Shift Timings"
+msgstr "Уақыттарды ығыстыру"
+
+#: src/GnomeSubtitles/Dialog/TimingsShiftDialog.cs:68
+msgid "Apply"
+msgstr "Іске асыру"
+
+#: src/GnomeSubtitles/Dialog/TimingsShiftDialog.cs:82
+msgid "Reset"
+msgstr "Тастау"
+
+#: src/GnomeSubtitles/Dialog/TimingsShiftDialog.cs:84
+msgid "Set From Video"
+msgstr "Видеодан орнату"
+
+#: src/GnomeSubtitles/Dialog/TimingsShiftDialog.cs:85
+msgid ""
+"Sets the shift amount in order for the selected subtitles to start at the "
+"current video position."
+msgstr ""
+"Таңдалған субтитрлер ағымдағы видео позициясында басталуы үшін ығыстыру "
+"мөлшерін орнатады."
+
+#: src/GnomeSubtitles/Dialog/TimingsShiftDialog.cs:94
+msgid "Amount"
+msgstr "Мөлшері"
+
+#. Tips label
+#: src/GnomeSubtitles/Dialog/TimingsShiftDialog.cs:118
+msgid ""
+"Tip: alternatively use Shift + Numpad Plus/Minus to shift timings directly from "
+"the main window."
+msgstr ""
+"Кеңес: баламалы түрде, негізгі терезеден уақыттарды тікелей ығыстыру үшін Shift "
+"+ сандық пернетақтадағы Плюс/Минус қолданыңыз."
+
+#: src/GnomeSubtitles/Dialog/TimingsSynchronizeDialog.cs:71
+msgid "Synchronize Timings"
+msgstr "Уақыттарды синхрондау"
+
+#: src/GnomeSubtitles/Dialog/TimingsSynchronizeDialog.cs:109
+msgid "Sync Points"
+msgstr "Синхрондау нүктелері"
+
+#: src/GnomeSubtitles/Dialog/TimingsSynchronizeDialog.cs:119
+msgid "Subtitles between sync points"
+msgstr "Синхрондау нүктелері арасындағы субтитрлер"
+
+#: src/GnomeSubtitles/Dialog/TimingsSynchronizeDialog.cs:136
+msgid "Info"
+msgstr "Ақпарат"
+
+#. Number column
+#: src/GnomeSubtitles/Dialog/TimingsSynchronizeDialog.cs:147
+msgid "Subtitle No."
+msgstr "Субтитр №"
+
+#: src/GnomeSubtitles/Dialog/TimingsSynchronizeDialog.cs:151
+#: src/GnomeSubtitles/Ui/View/SubtitleView.cs:257
+msgid "Start"
+msgstr "Басталуы"
+
+#: src/GnomeSubtitles/Dialog/TimingsSynchronizeDialog.cs:152
+msgid "New Start"
+msgstr "Жаңа басталуы"
+
+#: src/GnomeSubtitles/Dialog/TimingsSynchronizeDialog.cs:170
+msgid ""
+"Add sync points by selecting subtitles and adjusting the video to their correct "
+"position. At least 2 points are needed."
+msgstr ""
+"Субтитрлерді таңдап, видеоны олардың дұрыс позициясына реттеу арқылы синхрондау "
+"нүктелерін қосыңыз. Кемінде 2 нүкте қажет."
+
+#: src/GnomeSubtitles/Dialog/TimingsSynchronizeDialog.cs:173
+msgid ""
+"Add 1 more sync point to start synchronizing. Adding more points will improve "
+"accuracy."
+msgstr ""
+"Синхрондауды бастау үшін тағы 1 синхрондау нүктесін қосыңыз. Көбірек нүкте қосу "
+"дәлдікті арттырады."
+
+#: src/GnomeSubtitles/Dialog/TimingsSynchronizeDialog.cs:176
+msgid "Synchronization is ready. All subtitles will be synchronized."
+msgstr "Синхрондау дайын. Барлық субтитрлер синхрондалады."
+
+#: src/GnomeSubtitles/Dialog/TimingsSynchronizeDialog.cs:186
+#, csharp-format
+msgid ""
+"Synchronization is ready. The following subtitles will not be synchronized: {0}."
+msgstr "Синхрондау дайын. Келесі субтитрлер синхрондалмайды: {0}."
+
+#: src/GnomeSubtitles/Dialog/TimingsSynchronizeDialog.cs:189
+#, csharp-format
+msgid ""
+"Synchronization is ready. The following subtitles will not be synchronized: {0} "
+"and {1}."
+msgstr "Синхрондау дайын. Келесі субтитрлер синхрондалмайды: {0} және {1}."
+
+#: src/GnomeSubtitles/Dialog/VideoOpenDialog.cs:54
+msgid "Open Video"
+msgstr "Видеоны ашу"
+
+#: src/GnomeSubtitles/Dialog/VideoOpenDialog.cs:74
+msgid "All Media Files"
+msgstr "Барлық медиа файлдары"
+
+#: src/GnomeSubtitles/Dialog/VideoOpenDialog.cs:85
+msgid "Video Files"
+msgstr "Видео файлдары"
+
+#: src/GnomeSubtitles/Dialog/VideoOpenDialog.cs:93
+msgid "Audio Files"
+msgstr "Аудио файлдары"
+
+#: src/GnomeSubtitles/Dialog/VideoSeekToDialog.cs:57
+msgid "Seek Video To"
+msgstr "Видеоны мынаған айналдыру"
+
+#: src/GnomeSubtitles/Dialog/VideoSeekToDialog.cs:58
+msgid "_Seek"
+msgstr "_Айналдыру"
+
+#: src/GnomeSubtitles/Dialog/VideoSeekToDialog.cs:66
+msgid "Seek _video to:"
+msgstr "_Видеоны мынаған айналдыру:"
+
+#: src/GnomeSubtitles/Ui/Component/EncodingComboBox.cs:175
+msgid "Add or Remove…"
+msgstr "Қосу немесе өшіру…"
+
+#: src/GnomeSubtitles/Ui/Component/EncodingComboBox.cs:183
+msgid "Automatically Detected"
+msgstr "Автоматты түрде анықталды"
+
+#: src/GnomeSubtitles/Ui/Component/NewlineTypeComboBox.cs:106
+msgid "System Default"
+msgstr "Жүйеде үнсіз келісім бойынша"
+
+#. To translators: OVR and INS correspond to the Overwrite and Insert text
+#. editing modes.
+#: src/GnomeSubtitles/Ui/Status.cs:43
+msgid "OVR"
+msgstr "ҮСТ"
+
+#: src/GnomeSubtitles/Ui/Status.cs:43
+msgid "INS"
+msgstr "КІР"
+
+#. To translators: Trans corresponds to Translation (used here to denote
+#. whether text or translation is being edited).
+#: src/GnomeSubtitles/Ui/Status.cs:58
+#: src/GnomeSubtitles/Ui/View/SubtitleView.cs:265
+msgid "Text"
+msgstr "Мәтін"
+
+#: src/GnomeSubtitles/Ui/Status.cs:58
+msgid "Trans"
+msgstr "Ауд"
+
+#. To translators: Ln corresponds to Line
+#: src/GnomeSubtitles/Ui/Status.cs:60
+msgid "Ln"
+msgstr "Жол"
+
+#. To translators: Col corresponds to Column
+#: src/GnomeSubtitles/Ui/Status.cs:62
+msgid "Col"
+msgstr "Бағ"
+
+#: src/GnomeSubtitles/Ui/VideoPreview/Video.cs:53
+msgid "Media Player Error"
+msgstr "Медиа ойнатқыш қатесі"
+
+#: src/GnomeSubtitles/Ui/VideoPreview/Video.cs:54
+#, csharp-format
+msgid ""
+"An unexpected error has occurred: '{0}'. See the log for additional information."
+msgstr "Күтпеген қате орын алды: '{0}'. Қосымша ақпарат үшін журналды қараңыз."
+
+#: src/GnomeSubtitles/Ui/VideoPreview/VideoPosition.cs:193
+msgid "Frame"
+msgstr "Кадр"
+
+#. Number column
+#: src/GnomeSubtitles/Ui/View/SubtitleView.cs:253
+msgid "No."
+msgstr "№"
+
+#: src/GnomeSubtitles/Ui/View/SubtitleView.cs:258
+msgid "End"
+msgstr "Аяқталуы"
+
+#: src/GnomeSubtitles/Ui/View/SubtitleView.cs:270
+msgid "Translation"
+msgstr "Аударма"
